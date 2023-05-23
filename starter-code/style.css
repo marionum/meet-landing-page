@@ -111,3 +111,45 @@ header {
         position: relative;
         top: 10em;
     }
+
+    .verticalLine {
+        position: absolute;
+        left: 49.98%;
+        right: 50%;
+        height: 3rem;
+        top: 4rem;
+        opacity: 0.25;
+        border: 1px solid #87879D;
+    }
+    
+    .circleLine {
+        position: absolute;
+        left: 47.00%;
+        right: 50%;
+        width: 2em;
+        top: 7rem;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        border: 1px solid #87879D;
+        opacity: 0.25;
+        border-radius: 50%;
+        text-align: center;
+        font-family: 'Red Hat Display';
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    
+    .imageGalleryContainer {
+        position: relative;
+        top: 10em;
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 10%;
+    }
+    
+    .imageGalleryContainer img {
+        margin-right: 1em;
+        margin-bottom: 1em;
+        flex: 0 0 40%;
+        width: 42% !important;
+    }
