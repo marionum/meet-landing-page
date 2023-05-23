@@ -90,3 +90,24 @@ header {
         padding: 1em 2em;
         margin-right: 1em; 
     }
+    .img-hero-left-desktop {
+        display: none;
+    }
+    
+    .img-hero-right-desktop {
+        display: none;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    main{
+        position: relative;
+    }
+
+    footer{
+        position: relative;
+        top: 10em;
+    }
