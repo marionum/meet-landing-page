@@ -114,7 +114,7 @@ header {
 
     .verticalLine {
         position: absolute;
-        left: 49.98%;
+        left: 50%;
         right: 50%;
         height: 3rem;
         top: 4rem;
@@ -124,14 +124,14 @@ header {
     
     .circleLine {
         position: absolute;
-        left: 47.00%;
+        left: 49%;
         right: 50%;
         width: 2em;
         top: 7rem;
         padding-top: 0.25em;
         padding-bottom: 0.25em;
         border: 1px solid #87879D;
-        opacity: 0.25;
+        opacity: 0.55;
         border-radius: 50%;
         text-align: center;
         font-family: 'Red Hat Display';
@@ -139,7 +139,7 @@ header {
         font-weight: bold;
     }
     
-    .imageGalleryContainer {
+    .photo-gallery {
         position: relative;
         top: 10em;
         display: flex;
@@ -147,7 +147,7 @@ header {
         margin-left: 10%;
     }
     
-    .imageGalleryContainer img {
+    .photo-gallery img {
         margin-right: 1em;
         margin-bottom: 1em;
         flex: 0 0 40%;
@@ -196,4 +196,44 @@ header {
     background-image: url("./assets/mobile/image-footer.jpg"), linear-gradient(#71C0D4,#71C0D4);
     background-blend-mode: overlay;
     background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+
+    .footer-otsikko
+    {
+        color:#FAFAFA;
+        font-family: 'Red Hat Display';
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 900;
+        text-align:center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-button
+    {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #855FB1;
+        border-radius: 2em;
+        border-width: 0px;
+        line-height: 1,8em;
+        font-weight: bold;
+        font-size: 0.8em;
+        padding: 1em 2em;
+        
+    }
+
+    .footer-text
+    {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FAFAFA;
+
     }
