@@ -255,4 +255,22 @@ header {
         }
     }
 
-    
+    .img-hero-mobile
+    {
+        display: none;
+    }
+
+    .img-hero-left-desktop
+    {
+        display: block;
+        flex: 0 0 33.33%;
+        margin-left: -1rem;
+    }
+
+    .img-hero-right-desktop
+    {
+        display: block;
+        flex: 0 0 33.33%;
+        margin-left: -2rem;
+    }
+
