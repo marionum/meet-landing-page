@@ -237,3 +237,22 @@ header {
     color: #FAFAFA;
 
     }
+
+    @media only screen and (min-width: 480px)
+    {
+        .meet-header-icon
+        {
+            width: 119px;
+            margin: 3em auto 5em auto;
+        }
+    }
+
+    @media only screen and (min-width: 768px)
+    {
+        .meet-header-icon {
+            width: 119px;
+            margin: 4.5rem auto 5.75rem auto;
+        }
+    }
+
+    
