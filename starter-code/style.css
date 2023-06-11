@@ -223,7 +223,7 @@ header {
         border-width: 0px;
         line-height: 1,8em;
         font-weight: bold;
-        font-size: 0.8em;
+        font-size: 0.5em;
         padding: 1em 2em;
         
     }
@@ -245,6 +245,8 @@ header {
             width: 119px;
             margin: 3em auto 5em auto;
         }
+
+    
     }
 
     @media only screen and (min-width: 768px)
@@ -253,6 +255,8 @@ header {
             width: 119px;
             margin: 4.5rem auto 5.75rem auto;
         }
+
+      
     }
 
     .img-hero-mobile
